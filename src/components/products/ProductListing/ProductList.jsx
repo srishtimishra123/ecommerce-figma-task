@@ -46,25 +46,26 @@ const ProductList = () => {
       <div className="row">
         {/* Filters Section */}
         <div className="col-md-3">
-        <div>
-      {/* Toggle Button for Mobile View */}
-      {isMobileView && (
-        <button
-          className="toggle-button"
-          onClick={() => setShowFilters(!showFilters)}
-          style={{border:'1px solid blue',width:'100%',color:'white',backgroundColor:'blue',borderRadius:'5px'}}
-        >
-          {showFilters ? 'Hide Filters' : 'Show Filters'}
-        </button>
-      )}
+          <div>
+            {/* Toggle Button for Mobile View */}
+            {isMobileView && (
+              <button
+                className="toggle-button"
+                onClick={() => setShowFilters(!showFilters)}
+                style={{border:'1px solid blue', width:'100%', color:'white', backgroundColor:'blue', borderRadius:'5px'}}
+              >
+                {showFilters ? 'Hide Filters' : 'Show Filters'}
+              </button>
+            )}
 
-      {/* Filters Section */}
-      {(showFilters || !isMobileView) && (
-        <div className={`filters-container ${isMobileView ? 'mobile-view' : ''}`}>
-          <Filters />
-        </div>
-      )}
-    </div>
+            {/* Filters Section with CSS for Hide/Show */}
+            <div 
+              className={`filters-container ${isMobileView ? 'mobile-view' : ''}`} 
+              style={{ display: showFilters || !isMobileView ? 'block' : 'none' }}
+            >
+              <Filters />
+            </div>
+          </div>
         </div>
 
         {/* Products Section */}
