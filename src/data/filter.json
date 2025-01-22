@@ -1,0 +1,34 @@
+{
+    "filters": {
+      "brand": [
+        "Apple",
+        "Samsung",
+        "Google",
+        "OnePlus"
+      ],
+      "internalStorage": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "camera": [
+        "48MP",
+        "58MP",
+        "80MP",
+        "108MP"
+      ],
+      "batteryLife": [
+        "3000mAh",
+        "4000mAh",
+        "5000mAh",
+        "6000mAh"
+      ]
+    },
+    "defaultValues": {
+      "brand": [],
+      "internalStorage": "",
+      "camera": [],
+      "batteryLife": []
+    }
+  }
+  

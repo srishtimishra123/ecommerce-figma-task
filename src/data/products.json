@@ -1,0 +1,239 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "internalStorage": "128GB",
+    "camera": "48MP",
+    "price": 999,
+    "rating": 4.7,
+    "discountPrice": 999,
+    "stock": 10,
+    "operatingSystem":"IOS",
+    "productOf":30,
+    "batteryLife":"3000mAh",
+    "colors": ["Black", "Silver", "Gold"],
+    "storage": ["128GB", "256GB", "512GB"],
+    "images": [
+    "https://rb.gy/z339bo",
+    "https://rb.gy/oou5bi",
+    "https://shorturl.at/2O4a3"
+  ],
+    "specifications": {
+      "Display": "6.7-inch Super Retina XDR",
+      "Processor": "A18 Bionic Chip",
+      "Camera": "Triple 48MP Camera",
+      "Battery": "Up to 29 hours video playback"
+    },
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Amazing phone, but a bit pricey."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 5,
+        "comment": "Love the performance and camera quality!"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 2,
+    "name": "Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "internalStorage": "256GB",
+    "camera": "108MP",
+    "operatingSystem":"Android",
+    "batteryLife":"4000mAh",
+    "price": 1199,
+    "rating": 4.8,
+    "discountPrice": 999,
+    "productOf":40,
+    "stock": 10,
+    "colors": ["Black", "Silver", "Gold"],
+    "storage": ["128GB", "256GB", "512GB"],
+    "images": [
+      "https://5.imimg.com/data5/ANDROID/Default/2024/3/405957311/IC/JN/BM/7943853/product-jpeg-500x500.jpg",
+      "https://shorturl.at/sVeE2",
+      "https://shorturl.at/oSnuB"
+    ],
+    "specifications": {
+      "Display": "957-inch Super Retina XDR",
+      "Processor": "A18 Bionic Chip",
+      "Camera": "Triple 48MP Camera",
+      "Battery": "Up to 29 hours video playback"
+    },
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Amazing phone, but a bit pricey."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 5,
+        "comment": "Love the performance and camera quality!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pixel 7 Pro",
+    "brand": "Google",
+    "internalStorage": "128GB",
+    "operatingSystem":"Android",
+   "camera": "58MP",
+    "batteryLife":"5000mAh",
+    "price": 899,
+    "rating": 4.6,
+    "discountPrice": 999,
+    "productOf":20,
+    "stock": 10,
+    "colors": ["Black", "Silver", "Gold"],
+    "storage": ["128GB", "256GB", "512GB"],
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXfoDmEGS3xwktBJtvVCrXj9esQsUc3Z457Bxsnc35SPNlGWiK-a7xNksSmc5FQ1F-sFE&usqp=CAU",
+      "https://media.wired.com/photos/634622c07b75d692a43c00ba/master/pass/Google-Pixel-7-7-Pro-Review-Gear.jpg",
+      "https://www.designinfo.in/wp-content/uploads/2023/04/Google-Pixel-7-Pro-128GB-Snow-Sealed-Packed-Imported-485x485-optimized.webp"
+    ],
+    "specifications": {
+      "Display": "6.7-inch Super Retina XDR",
+      "Processor": "A18 Bionic Chip",
+      "Camera": "Triple 48MP Camera",
+      "Battery": "Up to 29 hours video playback"
+    },
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Amazing phone, but a bit pricey."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 5,
+        "comment": "Love the performance and camera quality!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "internalStorage": "128GB",
+    "operatingSystem":"IOS",
+    "camera": "48MP",
+    "batteryLife":"3000mAh",
+    "price": 999,
+    "rating": 4.7,
+    "productOf":50,
+    "discountPrice": 999,
+    "stock": 10,
+    "colors": ["Black", "Silver", "Gold"],
+    "storage": ["128GB", "256GB", "512GB"],
+    "images": [
+      "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFRUXFRcXGBcYFRcXFxUVFx0YGBcVFRcYHSggGB0lHR0YIjEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0OFQ8PFS0dFR0tLS0rKysrLSsrKy0tKysrLS0tLSstLi0tLS0tLSsrLS0tMistLS0tLS0tKy0tKystK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAwQFBgECCAf/xABLEAABAgMDBA8EBwUHBQAAAAABAAIDBBEFEiExQVFxBgcTIiMyNGFyc4GRsbLRNVKhwRQzQlN0kpMVJGLh8CVEVFVkg9IWQ6Kzwv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABkRAQEBAQEBAAAAAAAAAAAAAAABEQIhUf/aAAwDAQACEQMRAD8A9xQhCATWcm7u9aKuObMOcpeLEDWlxyAEnUMSoCy45iNER+V4vnmByN7ApasbzEF8TjRIh5mOuN7xlTf9lQxpyZ4rq6dKg9neziFIMAIvxXA3IQNK0+08/ZC8wO2zOF1dzhge6C/uvV+Sz6r2Z1mQuf8AVf6rAkWDO/8AXd6qA2GbNYU6w4XXtpeaaVbXIagC805K4Y4K1CINAUDP6IzTE/Xf6rIgQ87orf8AdfTvqlXPJJDQBQY6SdAQMcooe7JpCDY2a334v6r/AFWjpAD7cX9R/qnMu6m9zHJzHRqPySkU0FTkCCp7KrZhSUMviRYlaYDdH1OYYA445lRW7I7TjVdDduEM5DEc6JEI03b1Gjmy60hacUzloRIkTFkCga04jdHY1OoUHYpBUR05PWi042hE7IcOngmbrXtH/MIv5IfopO1mY10geChnhNA+3LRH9/iflh+iaP2UT3+YP7ofomluNduRu1yitNGdVZUW92y2f/x7+5notDswtD/HP7meiqdUBBa/+sbSzTsTuZ/xWp2Z2l/jIn5Wf8VX5UHHQlCERODZtaY/vj/ys/4qTszbTtOCRWI2K3OHCh7CPQqnELVB0ztfbYsC0BcO8je6c+FcPj3divK46sK0nS0xCjsJbdcK0904GurL2LrqyJvdYMOL7zQTrz07VYh2hCFQIQhAIQhAwt7k0bq3+BUVJOuwtTW+ClbeP7tG6t3goaXdvKdBZ6WOedsWadFtGYvGt1wY3maGinfUntUG2EKVBxzjRzr0vbI2HPfG3aA28+lHMwq9rcGuZXK4CgIymgIXnzZCPeu7jEvaLjq+CgltgMZzJ6FdNLwe13O0sccdRAPYvc7Mmr7AeYLynY1YbpasSKKR3AtYzOwOFC92g0qAMuKv0W0mSUoY8XI1oo3O52Zo5yUVZCaG986LVpJN49gBr3nOV4Ha+2BPRnlwjbi2uDWAYDQSaklSOxfbDjw4jWzL90hk0L7oD2fxG7g4aQRXQUw17kw4E6C09xCXtj6qJTLcd8QVFSM4HNdkyDtqQajmIUrbP1cTolQeG2FFBdNEkVM3Fz5hdAUwqI6RvxZh3+pij/yWRJxG8VzhqJHgqLxaLKw2nWO41+agYoS+xmPFeIsKK4uoA9tebBw+LT2FYmYdCophETOLDGgdyfxGprFaqhhEhjQO5NnsGgdwT6IE2e1UNXhIuCcvakXBAiQtSEo4LUhEIxchXWO13ELrOlicu5MPe0H5rlCMMCurNrQ/2bLdTD8jVYLOhCFUCEIQCEIQMLf5NG6t3goOW4o1M+anLf5NG6t3goSVyDUxZ6WNbRlGxBRwBHhzg5lWJuzn1o2M/UHEn4GqrW2ts2isimUl3FgaKxHjjY5GNObDEnLiF5SJtxdevOve9eN7vyqYr3uzLFY03ibx0qt7cRd9GhAVuiML2jFrrle0FMtrzZXEiOMvGcXPoXQ3mlXBoq6G45zSpBy4EK229KsmYTmPBc1woaZdIc06QcR/NB4TAjEBzaDfUxpjQaDmW8aWuXccSK00KxTewiZa47jditrgQ4NdT+JjuKe9PrJ2JGG4RJwigxEIODnvOYGmDRzlVF72IxXCDBaSa7hBrX4VrzUXoFs/VROiVSNjMFzzEiOwrTsFQABzU8Fd7ZPBP6JWWnhNiQQ4zJ/1cbxCkXSYTbY2OU/jI/i1TF1XE0xk4G5xA/sPROBVKi2VGaTVz7wJBN44kc+dehFi1jyYeL1MRgfkf60IPPROR4fG3458veE6l59j8OKdB+WlTc9Zo0KvT1m6EDiIE2iNSMvNObvYlSNOceqePbXEKhk8JBzU8e1IuagauCTITlzUm5qIbRxvTqXVO1p7NluqZ5WrlmYG9OpdTbWns2W6pnlarBaEIQqgQhCAQhCBhb/Jo3Vu8FX4dbtNMNtNYVgt/k0bq3eCiDAJhMc3KGjtFMQs9LHO22DLuE9HLh9YWxG87XAeBBHYoySY1w4QneijaUAGtexbMbBgzI34IIrRzRv4ZOWgPHaTiW9oVDOwhoOM4y71bw78v81FMdg8EmcY8cWGHvcdDQxw+JIHavU7JN5groCrFnSTGN3CXaaEi/EIo59M1BxW56d6udnSha0CmZBR9muyCHAi7iyGHvABcSSA2oqBhlNKHtT/AGIxYU1DdEa269puuacQHUqCNI9Frsy2CRJmNu8B7WucAHtcCASAAHAjmAFOZWDYNsQfKQnMJvPe6899LrRhQNFcw+NSgsVjS28OAxLW95HyCkrffSC81ph/JLyUANApkGQ+8T9rVoSVsU3F/RKivEtjZ5T+Mj+LVNKC2Pu5T+Lj+IUwHKoVSstFuuxxBwI0j+sexIByKoh1PyOcYg4g6QchVdnZLmVos6YB4J+Q8UnMTm1FJz8jlwUV53PSSYQYhhmh4vgrlOyfMq/aEiqEHsSDmLeSd9g5Rk5xnCVcxUMXMSbmJ49iScxAwmm712pdRbWXs2W6qH5GrmSbZvHdErpvaz9my3VQ/I1WJVoQhCqBCEIBCEII7ZC4CWjV+7d8QkLO+rZ0QldkvJY3QKQs08GzojwWemo0nbLhxOMMdIUPF2HQia1KsyFlUHK2BueDIlNTW+idfs+J98e4eikkII76BE++PcPRKwpGmLnFx5z8k8Qg0KjradwL9SfxHKMtxw3F9clEHh1iPoZn8XG8QpdsRQFmPo6Y/FRvEKSbFQSIetw9MGxUq2Ihh2Hqas+eEQCHEO+yNcftD3Tz86rgiLN9BOT0hzKuz0lzKwWfbLSAyMeYPy05nadadTln1FRQg5CMQRpBQeX2hKlpvNwINQUuQHAOAoHCtNBzjs9FYrUsw44KGlpcgOYRk3w8D8u5UMXw0iYaknQkm6EiIifZwb+iV0jtYu/s2WGiFD8jVzzaUPgonQPguhNrD2bL9XD8jFYlWtCELSBCEIBCEIIzZLyWN0Cm1nHg2dEJxsmNJWN0CmlnO4NnRHgs9LD8FZSTXLeqw02QsVQSgytHOQXJJzlRh5Uda5rCfn3pwT0vByGqjrYdwT9SI8DlH7+Y/ExfEJ6yIoqG+kSY/ERfFOWxFRJNipRsVRzYiUERFSIirO6pgIq2EVQPd1T6zraiQcBvmZ2OydnunUoUxVqYiC7wrQgR8GkNefsOIBPM05HeKi5izqRBhlqKawa4KrRXpeV2TzMGgDw9vuRBeFOY8YdhUz4akIkodCbul+ZSdnbK5aO4MiQXw3GuLSHs05DRw+KkoTJWLxI8I8xdcPc6ibfi+KXbECkGL0HeC922r/Zsv1cPyMXmOySwnNlI7xQhsF5qDUYA5wvTdq539nQOaHD/APWxa5rNWxCELbIQhCAQhCCPt8fu0bq3eCjLNPBs6IUpb/Jo3Vu8FD2c7g29ELPSw/BW15JByzVZUpfRfWlVi8gxFjNbxjRNJyLebRrhQ5TXMo6YjFxJP9BIOegl4EVlA1rq0+Ka2yTuL6YmibSMO87HNj6JzajuCf0Sg55ceFj/AIiL5kq16aR3cNH/ABEXxWzXrQeiItxFTJsRbCIgeiItt0TK+s7ooHu6LG6JnunP8UX0Dh700jlbF6RiOVBZ8SkVh/jHil45o5w0EjuKZQXUc0/xDxS9qvpGiCv2yoE5t/BvphvT4LpXay9my3VQ/I1cvzMXeO1FdQbWfs2W6qH5GrUSrQhCFUCEIQCEIQMLe5NG6t3goKzTwbOiFO29yaN1bvBV+zzwbeiPBZ6WHwKzeSV5F5ZUrfWL6TvLF9BETIuuI503c5Ss7Av4jApp+z8MXYoG8tMlrqjHNrT60ncE/olJS8ldNXEGmRbWkeDdqKo51nDw8fr4nisBy0tA8PH6+J5ikw5UOQ9bX02D1m+gch6zfTYPRfQOd0RuibX0X0DgvWhekb61voF4WLhrHisWxF4eL0ytrMZeisGl7fFR05HvRHu0vcewk0+CAiv3p1Lqray9my3VQ/I1cnPfhRdY7Wfs2W6qH5GqxFoQhCqBCEIBCEIGFvcmjdW7wVbkHcG3ohWS3uTRurd4KryJ3jeiFmrD0FF5JXkXlFKXliqTvLBKBQlaly0vLBcg2Lk0tF3Bv1JclNbQPBu1IOdrTP7xH66J5ikLyVtXlEfronmKbVVQqHLN5JByKoFbyzeSVUVQK3li8k6oqgUvLF5PoFjvIvPIht0uwJ1NTpkGVb7zzpzdlSPiEGux1rd0vvrdY1ziRSuQgUrhWpFE5hiUZgyWDueI5zz3Cg+CczTYbIALBQxDTIBvWUJ4uGUj4qLUaOJ60juURrIcKGCxwNyExpoRpAqV0VtZezZbqofkauaJz6t/RK6X2svZst1UPyNVjNWhCELSBCEIBCEIGFvcmjdW7wVRkHcG3ohW63uTRurd4KmSLt43UFmrD68i8kQ5F5RS15YvJG8i8gVvLUuSZctS5ApeTWfdvHakoXptPO3jtSDn21uUR+uieYpsnNr8oj9dE8xTRVGVlaoQbVRVYT2zpDdKuebkJvGfTP7rdLjjgg0kZJ8Um7g0YuccGtGkn5ZVIsmIcHCCLzs8Vwx/22/ZGvFITk7eAYxtyGMjB5ne87nKZ3kDiJHc4kuJJOUnKlZNhe4NGUmiZgqakWblDMU8Z1Ws/wDp3YD8QorNpxQX3Qd6wXBz0yntNfgmlVqStb6DE4d47oldM7Wfs2W6qH5GrmKadvHaiunNrL2bLdUzytViVaUIQtIEIQgEIQgYW9yaN1bvBUaRdvG6grzb3Jo3Vu8FQJJ+8bqCz0sP76L6QDlm8sqVLlguSN5F9AqXLUuSZetS5AoXJtOu3hW5cm847elB4Ra/KI/XRPMU0Tu1+UR+uieYpotIEIWWtzDHNrQObNkjFfdBoBi5xyNaMpT20JoOoyGLsJmDRp0udpJTiYG4wWwRxngOiHyt1fKiiXFBhxWoRRSFmWc6K6gyZSTkAzkoN7IkN0JLjRjRVztAGVKT83ujqgUaBRrdDRkGvOdaVtGbbQQYX1bTUnPEd7x5hmHao4uUVsSsFyTLlrVUZmXb12orqDay9mS3VM8rVy1HO9OorqXay9mS3VM8rUiVaUIQtIEIQgEIQgYW/wAmjdW7wXnUm7ejUPBei29yaN1bvBeZyj96NQWelh8HIvJC8i8sqWvovpEvWt9AvfWpekS9al6BYuTeadvVkuSEy7ensQeLWqP3iP10TzFNaJ/aLax4/XxPMUhcWkN6KUsGWBeYjuKwE81aE49mTnc1M9z5lONliyWoBi4tr278/AQ+5CImajF73POVxJ/kEiGEqWlbIe8gNaSSVIRZSBK/Xm/E+6YQSOmcjR3nmUXEfZljl9XuIYxuLnuwaBrW1o2m27uMAXYYyuyOi0zu0N0N702tK1YkagNGsHFht4rfU85TAlBuXLFVoXLUuVRuXLBctKrBKDEY706l1TtZezJbqmeVq5UinA6l1XtZezJbqmeVqsFpQhCqBCEIBCEIGFv8mjdW7wXlkq/ejUF6tbArAi9W7wK8ilX70almrD2+i+kLyxeUUvfRfSF5YvIFy9al6SLlqXoFS5JRnYdywXpKLEoK6CD3IKDLWNEjRJh7Wkj6TFGGkH+afwNh8d2SG5Qk1sinJaNMQoMd0Nv0iK4hobxi7E1IrkAzqOmdkM5E483MO5jGfTurRMp4vbNhRaC6K9jGjKXOAprqszltWfCbdbfmHAgi6LjLwa1vGcKkb0ZAoezqss1riSXRoz3kk1JDeDBr2FVyMcVMXUvaOyqPEBay7AYcLsKoNNDnk1PZTUoErUlYqtYy3qtarFVhBsVhYcVqSg2qtSViq1JQEQ4FdXbWXsyW6pnlauT3nBdabXDSLNlgfumeVqsFlQhCqBCEIBCEINYjKgjSCO9eLOgOhOdCfg5ji09mT4Yr2tVbZfsW+kcNBIEYClDg2IBkDtB0FSxY8+vIvImpOPCNIsF7DzgkdjhgUhePP3FZUveWCUlU6D3FFTod3H0QKVWLyTNdDu4+ixQ6HflPogUL0nExBHMsXXe678p9EXHe678p9EHmuzSVLJlz6YRRfHSyPGuo+KgV6pbVj7uwtcx+kENNWn3hUd4zqjz2xObZW7CdEbjvmjHtacQrBPWmLkpKQwMkBru2JWIfi5VeMrHbs4YgY1sCOLkNjcYZ+y0DMq/El4p/7MX9N3opCmaEsZOL9zF/Td6LH0ON9zF/Td6KoRWKpb6FG+5i/pu9Fj6DG+5i/pu9ECBKxVOPoEf7iL+m70R+z4/3EX9N3ogbITkWdH+5i/kd6KQs3YnPR3BsOWfjnIoB80EfZck6PGhwWipe4Dsz/AFdg2FJ7jLwodKFrACNBzhUDau2sxJETExvo+YYUYPVemqwCEIVQIQhAIQhAIQhAnGyJmzIsoQKBZQhAIQhBuFlCEGElMcU6ihCCCnMp1FMkIUVIy3FCVQhBHzfGPYm0XIhCBpEz9qZvynWsoUG8pxwr9ZXFGpCFYHyEIVQIQhAIQhB/9k=",
+      "data:image/jpeg;base64,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",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFVFSPBvrR8xhrU7DScgc5Uy7nlQoDouRhw&s"
+    ],
+    "specifications": {
+      "Display": "4.7-inch Super Retina XDR",
+      "Processor": "A18 Bionic Chip",
+      "Camera": "Triple 48MP Camera",
+      "Battery": "Up to 29 hours video playback"
+    },
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Amazing phone, but a bit pricey."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 5,
+        "comment": "Love the performance and camera quality!"
+      }
+    ]
+},
+{
+  "id": 5,
+  "name": "OnePlus 6T pro",
+  "brand": "OnePlus",
+  "internalStorage": "128GB",
+  "operatingSystem":"Android",
+  "camera": "58MP",
+  "batteryLife":"4000mAh",
+  "price": 999,
+  "rating": 4.7,
+  "productOf":50,
+  "discountPrice": 999,
+  "stock": 10,
+  "colors": ["Black", "Silver", "Gold"],
+  "storage": ["128GB", "256GB", "512GB"],
+  "images": [
+    "data:image/jpeg;base64,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",
+    "data:image/jpeg;base64,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",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFVFSPBvrR8xhrU7DScgc5Uy7nlQoDouRhw&s"
+  ],
+  "specifications": {
+    "Display": "8.75-inch Super Retina XDR",
+    "Processor": "A18 Bionic Chip",
+    "Camera": "Triple 48MP Camera",
+    "Battery": "Up to 29 hours video playback"
+  },
+  "reviews": [
+    {
+      "user": "John Doe",
+      "rating": 4,
+      "comment": "Amazing phone, but a bit pricey."
+    },
+    {
+      "user": "Jane Smith",
+      "rating": 5,
+      "comment": "Love the performance and camera quality!"
+    }
+  ]
+},
+{
+  "id": 6,
+  "name": "OnePlus 6T pro",
+  "brand": "OnePlus",
+  "internalStorage": "128GB",
+  "operatingSystem":"Android",
+  "camera": "58MP",
+  "batteryLife":"4000mAh",
+  "price": 999,
+  "rating": 4.7,
+  "productOf":50,
+  "discountPrice": 999,
+  "stock": 10,
+  "colors": ["Black", "Silver", "Gold"],
+  "storage": ["128GB", "256GB", "512GB"],
+  "images": [
+    "https://cdn.dxomark.com/wp-content/uploads/medias/post-22894/oneplus6t-1024x768-1.jpg",
+    "https://cdn.opstatics.com/store/20170907/assets/images/support/support-list/model-specs-list/details/6t-midnight-black.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSfm24HQQq6IuCU344DohbNiLqR_jn74Y-toXmPOIgkmDiHd7AYylXQwr-o1Tdng8cmA&usqp=CAU"
+  ],
+  "specifications": {
+    "Display": "8.75-inch Super Retina XDR",
+    "Processor": "A18 Bionic Chip",
+    "Camera": "Triple 48MP Camera",
+    "Battery": "Up to 29 hours video playback"
+  },
+  "reviews": [
+    {
+      "user": "John Doe",
+      "rating": 4,
+      "comment": "Amazing phone, but a bit pricey."
+    },
+    {
+      "user": "Jane Smith",
+      "rating": 5,
+      "comment": "Love the performance and camera quality!"
+    }
+  ]
+}
+]
+
+  

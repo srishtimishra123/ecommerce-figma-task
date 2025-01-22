@@ -1,0 +1,115 @@
+/* Parent container for filters and product list */
+.product-page {
+    display: flex;
+    margin: 16px;
+    gap: 16px;
+  }
+  
+  /* Filters Section */
+  .filters-section {
+    flex: 0 0 250px; /* Fixed width for filters */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product List Section */
+  .product-list {
+    flex: 1; /* Take up remaining space */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  /* Individual Product Card */
+  .product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #333333;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: #007bff;
+    margin: 0;
+  }
+
+  /* Parent container for filters and product list */
+.product-page {
+    display: flex;
+    margin: 16px;
+    gap: 16px;
+    align-items: flex-start; /* Ensures content aligns at the top */
+  }
+  
+  /* Filters Section */
+  .filters-section {
+    flex: 0 0 250px; /* Fixed width for filters */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: fit-content; /* Keeps the height of filters appropriate */
+  }
+  
+  /* Product List Section */
+  .product-list {
+    flex: 1; /* Takes the remaining space */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    justify-content: start; /* Aligns products to the left */
+  }
+  
+  .toggle-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .filters-container.mobile-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .filters-container {
+    padding: 15px;
+  }
+  

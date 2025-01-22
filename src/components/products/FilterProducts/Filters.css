@@ -1,0 +1,162 @@
+/* .filters {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  font-family: Arial, sans-serif;
+}
+
+.filters-heading {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.filter-item {
+  margin-bottom: 16px;
+}
+
+.filter-item h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+.filter-item label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #666666;
+}
+
+.filter-item label input {
+  margin-right: 8px;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+} */
+
+
+/* Updated CSS for Interactive Filters */
+.filters {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.filters:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.filters-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.filter-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.filter-item:last-child {
+  border-bottom: none;
+}
+
+.filter-item h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444444;
+}
+
+.filter-item label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #666666;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-item label:hover {
+  color: #000000;
+}
+
+.filter-item label input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filter-item input[type='checkbox'],
+.filter-item input[type='radio'] {
+  accent-color: #007bff;
+  transform: scale(1.2);
+}
+
+.clear-button {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.clear-button:hover {
+  background-color: #e63939;
+  transform: translateY(-2px);
+}
+
+/* Button Row Styling */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
